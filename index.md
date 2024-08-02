@@ -60,10 +60,12 @@ Neutron stars are one of the most extreme environments in the universe. Their ce
 
 {% capture text %}
 
-         I completed my PhD in Astronomy & Astrophysics at the <a href="https://www.as.arizona.edu/">University of Arizona</a> in 2020. Most recently, I was a joint postdoctoral fellow at the
-        <a href="https://pcts.princeton.edu/">Princeton Center for Theoretical Science</a>,
-        <a href="https://gravity.princeton.edu/">Princeton Gravity Initiative</a>, and as a John N. Bahcall fellow at
-        the <a href="https://www.ias.edu/">Institute for Advanced Study.</a>        
+I completed my PhD in Astronomy & Astrophysics at the <a href="https://www.as.arizona.edu/">University of Arizona</a> in 2020. Most recently, I was a joint postdoctoral fellow at the <a href="https://pcts.princeton.edu/">Princeton Center for Theoretical Science</a>, <a href="https://gravity.princeton.edu/">Princeton Gravity Initiative</a>, and as a John N. Bahcall fellow at the <a href="https://www.ias.edu/">Institute for Advanced Study.</a>        
+
+
+{%
+%}
+
 
 {% endcapture %}
 
