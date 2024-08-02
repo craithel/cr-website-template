@@ -1,19 +1,19 @@
 ---
 ---
 
+<!--
 # Carolyn Raithel 
-## Assistant Professor of Physics & Astronomy, Swarthmore College
-### <i> Website currently under construction  </i>
+## Assistant Professor of Physics & Astronomy, Swarthmore College -->
 
+### <i> Website currently under construction  </i>
 
 {% include section.html %}
 
 <!--  ## Highlights -->
 
 {% capture text %}
+Neutron stars are one of the most extreme environments in the universe. Their central densities can exceed 10^{15} g/cm^{3}, making them several times denser than matter that an atomic nucleus. What happens when matter is compressed to such densities is one of the big open questions in modern nuclear- and astro-physics. My research works to connect astrophysical observations of neutron stars with detailed models of the stellar interior, in order to probe the nature of ultra-dense matter.
 
- I am a theoretical and computational astrophysicist. My research centers on the study of neutron stars. I am particularly interested in using multi-messenger observations of neutron stars to study their interiors, which is a field that has been revolutionized by the advent of gravitational wave astronomy. 
- 
 {%
   include button.html
   link="research"
@@ -50,7 +50,7 @@
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/teaching.png"
   link="teaching"
   title="Teaching"
   flip=true
@@ -60,14 +60,16 @@
 
 {% capture text %}
 
-<i> Coming soon - about me. </i>
-
+         I completed my PhD in Astronomy & Astrophysics at the <a href="https://www.as.arizona.edu/">University of Arizona</a> in 2020. Most recently, I was a joint postdoctoral fellow at the
+        <a href="https://pcts.princeton.edu/">Princeton Center for Theoretical Science</a>,
+        <a href="https://gravity.princeton.edu/">Princeton Gravity Initiative</a>, and as a John N. Bahcall fellow at
+        the <a href="https://www.ias.edu/">Institute for Advanced Study.</a>        
 
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/headshot.jpg"
+  image="images/PCTS_headshot.jpg"
   link="aboutme"
   title="About me"
   text=text
