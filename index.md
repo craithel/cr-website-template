@@ -12,7 +12,7 @@
 <!--  ## Highlights -->
 
 {% capture text %}
-Neutron stars are one of the most extreme environments in the universe. Their central densities can exceed 10^{15} g/cm^{3}, making them several times denser than matter that an atomic nucleus. What happens when matter is compressed to such densities is one of the big open questions in modern nuclear- and astro-physics. My research works to connect astrophysical observations of neutron stars with detailed models of the stellar interior, in order to probe the nature of ultra-dense matter.
+Neutron stars are one of the most extreme environments in the universe. Their central densities can exceed 10<sup>15</sup> g/cm<sup>3</sup>, making them several times denser than matter that an atomic nucleus. What happens when matter is compressed to such densities is one of the big open questions in modern nuclear- and astro-physics. My research works to connect astrophysical observations of neutron stars with detailed models of the stellar interior, in order to probe the nature of ultra-dense matter.
 
 {%
   include button.html
@@ -60,7 +60,11 @@ Neutron stars are one of the most extreme environments in the universe. Their ce
 
 {% capture text %}
 
-I completed my PhD in Astronomy & Astrophysics at the <a href="https://www.as.arizona.edu/">University of Arizona</a> in 2020. Most recently, I was a joint postdoctoral fellow at the <a href="https://pcts.princeton.edu/">Princeton Center for Theoretical Science</a>, <a href="https://gravity.princeton.edu/">Princeton Gravity Initiative</a>, and as a John N. Bahcall fellow at the <a href="https://www.ias.edu/">Institute for Advanced Study.</a>        
+I am an Assistant Professor of Physics & Astronomy at Swarthmore College, starting in Fall of 2024.
+<br>
+I completed my PhD in Astronomy & Astrophysics at the <a href="https://www.as.arizona.edu/">University of Arizona</a> in 2020. From 2020 to 2024, I was a joint postdoctoral fellow at the <a href="https://pcts.princeton.edu/">Princeton Center for Theoretical Science</a>, <a href="https://gravity.princeton.edu/">Princeton Gravity Initiative</a>, and as a John N. Bahcall fellow at the <a href="https://www.ias.edu/">Institute for Advanced Study.</a>        
+<br>
+<br>
 
 {% endcapture %}
 
