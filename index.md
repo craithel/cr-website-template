@@ -1,22 +1,23 @@
 ---
 ---
 
-# craithelDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
-
+# Carolyn Raithel 
+## Assistant Professor of Physics & Astronomy, Swarthmore College
+### <i> Website currently under construction  </i>
 
 
 {% include section.html %}
 
-## Highlights
+<!--  ## Highlights -->
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+ I am a theoretical and computational astrophysicist. My research centers on the study of neutron stars. I am particularly interested in using multi-messenger observations of neutron stars to study their interiors, which is a field that has been revolutionized by the advent of gravitational wave astronomy. 
+ 
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="See full list of publications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -26,20 +27,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/merger_image.jpeg"
   link="research"
-  title="Our Research"
+  title="Research"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<i> Coming soon. </i>
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="teaching"
+  text="More on teaching"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -50,8 +51,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
+  link="teaching"
+  title="Teaching"
   flip=true
   style="bare"
   text=text
@@ -59,23 +60,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<i> Coming soon - about me. </i>
 
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
 
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
+  image="images/headshot.jpg"
+  link="aboutme"
+  title="About me"
   text=text
 %}
