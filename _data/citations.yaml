@@ -1,5 +1,29 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1103/PhysRevD.110.043002
+  title: Detectability of finite-temperature effects from neutron star mergers with
+    next-generation gravitational wave detectors
+  authors:
+  - Carolyn A. Raithel
+  - Vasileios Paschalidis
+  publisher: Physical Review D
+  date: '2024-08-02'
+  link: https://doi.org/gt5zdg
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1103/PhysRevD.108.083029
+  title: Influence of stellar compactness on finite-temperature effects in neutron
+    star merger simulations
+  authors:
+  - Carolyn A. Raithel
+  - Vasileios Paschalidis
+  publisher: Physical Review D
+  date: '2023-10-20'
+  link: https://doi.org/gt5zdh
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1103/PhysRevD.108.023010
   title: "Tidal deformability doppelg\xE4nger: Implications of a low-density phase\
     \ transition in the neutron star equation of state"
