@@ -64,7 +64,6 @@ I joined the department of Physics & Astronomy at Swarthmore College as an Assis
 <br>
 I received my B.A. in Physics from <a href="https://www.carleton.edu/">Carleton College</a> and my PhD in Astronomy & Astrophysics from the <a href="https://www.as.arizona.edu/">University of Arizona</a>. 
 
-{% endcapture %}
 
 {%
   include button.html
@@ -74,3 +73,14 @@ I received my B.A. in Physics from <a href="https://www.carleton.edu/">Carleton 
   flip=true
   style="bare"
 %}
+
+
+{% endcapture %}
+
+{%
+ include feature.html
+  image="images/PCTS_headshot.jpg"
+  link="aboutme"
+  title="About me"
+  text=text
+  %}
