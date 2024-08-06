@@ -1,8 +1,8 @@
 ---
 title: Teaching
-<!--nav:
+  nav:
   order: 4
-  tooltip: Musings and miscellany-->
+<!-- tooltip: Musings and miscellany-->
 ---
 
 
