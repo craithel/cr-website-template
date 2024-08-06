@@ -17,7 +17,7 @@ Neutron stars are one of the most extreme environments in the universe. Their ce
 {%
   include button.html
   link="research"
-  text="See full list of publications"
+  text="Learn more"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -60,16 +60,17 @@ Neutron stars are one of the most extreme environments in the universe. Their ce
 
 {% capture text %}
 
-I am an Assistant Professor of Physics & Astronomy at Swarthmore College, starting in Fall of 2024. I completed my PhD in Astronomy & Astrophysics at the <a href="https://www.as.arizona.edu/">University of Arizona</a> in 2020. From 2020 to 2024, I was a joint postdoctoral fellow at the <a href="https://pcts.princeton.edu/">Princeton Center for Theoretical Science</a>, <a href="https://gravity.princeton.edu/">Princeton Gravity Initiative</a>, and as a John N. Bahcall fellow at the <a href="https://www.ias.edu/">Institute for Advanced Study.</a>        
+I joined the department of Physics & Astronomy at Swarthmore College as an Assistant Professor in Fall of 2024. Prior to coming to Swarthmore, I was a joint postdoctoral fellow at the <a href="https://pcts.princeton.edu/">Princeton Center for Theoretical Science</a>, <a href="https://gravity.princeton.edu/">Princeton Gravity Initiative</a>, and as a John N. Bahcall fellow at the <a href="https://www.ias.edu/">Institute for Advanced Study.</a> 
 <br>
-<br>
+I received my B.A. in Physics from <a href="https://www.carleton.edu/">Carleton College</a> and my PhD in Astronomy & Astrophysics from the <a href="https://www.as.arizona.edu/">University of Arizona</a>. 
 
 {% endcapture %}
 
 {%
-  include feature.html
-  image="images/PCTS_headshot.jpg"
-  link="aboutme"
-  title="About me"
-  text=text
+  include button.html
+  link="cv"
+  text="For my CV, click here"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
 %}
