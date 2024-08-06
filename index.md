@@ -78,9 +78,9 @@ I received my B.A. in Physics from <a href="https://www.carleton.edu/">Carleton 
 {% endcapture %}
 
 {%
-  include figure.html
+  include feature.html
   image="images/PCTS_headshot.jpg"
-  width="50%"
   flip=true
   style="bare"
+  text=text
 %}
