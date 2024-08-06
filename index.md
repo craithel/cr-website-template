@@ -27,7 +27,7 @@ Neutron stars are one of the most extreme environments in the universe. Their ce
 
 {%
   include feature.html
-  image="images/merger_image_cropped1.png"
+  image="images/merger_image.jpeg"
   link="research"
   title="Research"
   text=text
@@ -79,7 +79,7 @@ I received my B.A. in Physics from <a href="https://www.carleton.edu/">Carleton 
 
 {%
   include feature.html
-  image="images/PCTS_headshot.jpg"
+  image="images/PCTS_headshot_cropped.png"
   text=text
   aspect-ratio=1
 %}
