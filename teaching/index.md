@@ -2,7 +2,7 @@
 title: Teaching
 nav:
   order: 3
-  tooltip: Musings and miscellany
+  tooltip: Courses taught
 ---
 
 
