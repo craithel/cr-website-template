@@ -1,0 +1,13 @@
+- id: doi:10.1103/PhysRevD.110.043002
+  title: Detectability of finite-temperature effects from neutron star mergers with
+    next-generation gravitational wave detectors
+  authors:
+  - Carolyn A. Raithel
+  - Vasileios Paschalidis
+  publisher: Physical Review D
+  date: '2024-08-02'
+  link: https://doi.org/gt5zdg
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+  image: https://journals.aps.org/prd/article/10.1103/PhysRevD.110.043002/figures/2/medium
