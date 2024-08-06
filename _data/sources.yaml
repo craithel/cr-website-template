@@ -67,7 +67,7 @@
   orcid: 0000-0002-1798-6668
   plugin: orcid.py
   file: orcid.yaml
-  image:https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mnras/516/4/10.1093_mnras_stac2450/1/m_stac2450fig3.jpeg?Expires=1725288648&Signature=bXHNfx8OWLojQAP5~zWA55ZLbHsk8Mgs1NWzDBaY3GQ6tUTWrsOr9EEYDU502UjFaCVAQNLvbDKdpwe7oMwmBbxS6mq7MdDUKBoqfLlsCMzW~S1xfjoiruz4HAjNO--3ZJYYm2xu~LFuKedqePjDf5zVflnAZYA-TPtFohDRlNUUTNRYMiHRRUUaxqEsUw3VwniJCueA2c6NjV1OVIiS-CmVgSGI2Qw~BABDFZncuWeWNkBglrmCYXkEbr2tJrWbvRrhtsjjT-Krz7RZ2I8NnLju6gq~uob3SKQnPnlDzssCUceEQVa8yvRW6vNu9gdpM9tw5pBD95jRiDgu1mPVnQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mnras/516/4/10.1093_mnras_stac2450/1/m_stac2450fig3.jpeg?Expires=1725288648&Signature=bXHNfx8OWLojQAP5~zWA55ZLbHsk8Mgs1NWzDBaY3GQ6tUTWrsOr9EEYDU502UjFaCVAQNLvbDKdpwe7oMwmBbxS6mq7MdDUKBoqfLlsCMzW~S1xfjoiruz4HAjNO--3ZJYYm2xu~LFuKedqePjDf5zVflnAZYA-TPtFohDRlNUUTNRYMiHRRUUaxqEsUw3VwniJCueA2c6NjV1OVIiS-CmVgSGI2Qw~BABDFZncuWeWNkBglrmCYXkEbr2tJrWbvRrhtsjjT-Krz7RZ2I8NnLju6gq~uob3SKQnPnlDzssCUceEQVa8yvRW6vNu9gdpM9tw5pBD95jRiDgu1mPVnQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
   
 - id: doi:10.1103/PhysRevD.106.023015
   title: Improving the convergence order of binary neutron star merger simulations
