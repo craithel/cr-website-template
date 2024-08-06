@@ -11,3 +11,230 @@
   plugin: orcid.py
   file: orcid.yaml
   image: https://journals.aps.org/prd/article/10.1103/PhysRevD.110.043002/figures/2/medium
+  
+- id: doi:10.1103/PhysRevD.108.083029
+  title: Influence of stellar compactness on finite-temperature effects in neutron
+    star merger simulations
+  authors:
+  - Carolyn A. Raithel
+  - Vasileios Paschalidis
+  publisher: Physical Review D
+  date: '2023-10-20'
+  link: https://doi.org/gt5zdh
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+  image: https://journals.aps.org/prd/article/10.1103/PhysRevD.108.083029/figures/5/medium
+  
+- id: doi:10.1103/PhysRevD.108.023010
+  title: "Tidal deformability doppelg\xE4nger: Implications of a low-density phase\
+    \ transition in the neutron star equation of state"
+  authors:
+  - Carolyn A. Raithel
+  - Elias R. Most
+  publisher: Physical Review D
+  date: '2023-07-11'
+  link: https://doi.org/gt5wxn
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+  image: https://journals.aps.org/prd/article/10.1103/PhysRevD.108.023010/figures/3/medium
+  
+- id: doi:10.1103/PhysRevLett.130.201403
+  title: Degeneracy in the Inference of Phase Transitions in the Neutron Star Equation
+    of State from Gravitational Wave Data
+  authors:
+  - Carolyn A. Raithel
+  - Elias R. Most
+  publisher: Physical Review Letters
+  date: '2023-05-18'
+  link: https://doi.org/gt5wxp
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+  image: https://journals.aps.org/prl/article/10.1103/PhysRevLett.130.201403/figures/3/medium
+  
+- id: doi:10.1093/mnras/stac2450
+  title: 'Finite-temperature effects in dynamical spacetime binary neutron star merger
+    simulations: validation of the parametric approach'
+  authors:
+  - Carolyn A Raithel
+  - Pedro Espino
+  - Vasileios Paschalidis
+  publisher: Monthly Notices of the Royal Astronomical Society
+  date: '2022-09-02'
+  link: https://doi.org/gt5wxq
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+  image:https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mnras/516/4/10.1093_mnras_stac2450/1/m_stac2450fig3.jpeg?Expires=1725288648&Signature=bXHNfx8OWLojQAP5~zWA55ZLbHsk8Mgs1NWzDBaY3GQ6tUTWrsOr9EEYDU502UjFaCVAQNLvbDKdpwe7oMwmBbxS6mq7MdDUKBoqfLlsCMzW~S1xfjoiruz4HAjNO--3ZJYYm2xu~LFuKedqePjDf5zVflnAZYA-TPtFohDRlNUUTNRYMiHRRUUaxqEsUw3VwniJCueA2c6NjV1OVIiS-CmVgSGI2Qw~BABDFZncuWeWNkBglrmCYXkEbr2tJrWbvRrhtsjjT-Krz7RZ2I8NnLju6gq~uob3SKQnPnlDzssCUceEQVa8yvRW6vNu9gdpM9tw5pBD95jRiDgu1mPVnQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  
+- id: doi:10.1103/PhysRevD.106.023015
+  title: Improving the convergence order of binary neutron star merger simulations
+    in the Baumgarte- Shapiro-Shibata-Nakamura formulation
+  authors:
+  - Carolyn A. Raithel
+  - Vasileios Paschalidis
+  publisher: Physical Review D
+  date: '2022-07-13'
+  link: https://doi.org/gt5wxr
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3847/2041-8213/ac7c75
+  title: Characterizing the Breakdown of Quasi-universality in Postmerger Gravitational
+    Waves from Binary Neutron Star Mergers
+  authors:
+  - Carolyn A. Raithel
+  - Elias R. Most
+  publisher: The Astrophysical Journal Letters
+  date: '2022-07-01'
+  link: https://doi.org/gq26xr
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3847/1538-4357/ac2c69
+  title: Markov Chains for Horizons MARCH. I. Identifying Biases in Fitting Theoretical
+    Models to Event Horizon Telescope Observations
+  authors:
+  - Dimitrios Psaltis
+  - "Feryal \xD6zel"
+  - Lia Medeiros
+  - Pierre Christian
+  - Junhan Kim
+  - Chi-kwan Chan
+  - Landen J. Conway
+  - Carolyn A. Raithel
+  - Dan Marrone
+  - Tod R. Lauer
+  publisher: The Astrophysical Journal
+  date: '2022-03-01'
+  link: https://doi.org/gt5wxs
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1103/PhysRevD.104.124012
+  title: Impact of the nuclear symmetry energy on the post-merger phase of a binary
+    neutron star coalescence
+  authors:
+  - Elias R. Most
+  - Carolyn A. Raithel
+  publisher: Physical Review D
+  date: '2021-12-02'
+  link: https://doi.org/gt5wxt
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1103/PhysRevD.104.063016
+  title: Realistic finite-temperature effects in neutron star merger simulations
+  authors:
+  - Carolyn A. Raithel
+  - Vasileios Paschalidis
+  - "Feryal \xD6zel"
+  publisher: Physical Review D
+  date: '2021-09-14'
+  link: https://doi.org/gt5wxv
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3847/1538-4357/ac0630
+  title: "Erratum: \u201CFinite-temperature Extension for Cold Neutron Star Equations\
+    \ of State\u201D (2019, ApJ, 875, 12)"
+  authors:
+  - Carolyn A. Raithel
+  - "Feryal \xD6zel"
+  - Dimitrios Psaltis
+  publisher: The Astrophysical Journal
+  date: '2021-07-01'
+  link: https://doi.org/gt5wxw
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3847/1538-4357/abd3a4
+  title: Optimized Statistical Approach for Comparing Multi-messenger Neutron Star
+    Data
+  authors:
+  - Carolyn A. Raithel
+  - "Feryal \xD6zel"
+  - Dimitrios Psaltis
+  publisher: The Astrophysical Journal
+  date: '2021-02-01'
+  link: https://doi.org/gt5wxx
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3847/1538-4357/ab48e6
+  title: Measurement of the Nuclear Symmetry Energy Parameters from Gravitational-wave
+    Events
+  authors:
+  - Carolyn A. Raithel
+  - "Feryal \xD6zel"
+  publisher: The Astrophysical Journal
+  date: '2019-11-07'
+  link: https://doi.org/gt5wxz
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3847/1538-4357/ab08ea
+  title: Finite-temperature Extension for Cold Neutron Star Equations of State
+  authors:
+  - Carolyn A. Raithel
+  - "Feryal \xD6zel"
+  - Dimitrios Psaltis
+  publisher: The Astrophysical Journal
+  date: '2019-04-08'
+  link: https://doi.org/gt5wx2
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3847/2041-8213/aabcbf
+  title: Tidal Deformability from GW170817 as a Direct Probe of the Neutron Star Radius
+  authors:
+  - Carolyn A. Raithel
+  - "Feryal \xD6zel"
+  - Dimitrios Psaltis
+  publisher: The Astrophysical Journal Letters
+  date: '2018-04-20'
+  link: https://doi.org/gkkn63
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3847/1538-4357/aab09b
+  title: Confronting Models of Massive Star Evolution and Explosions with Remnant
+    Mass Measurements
+  authors:
+  - Carolyn A. Raithel
+  - Tuguldur Sukhbold
+  - "Feryal \xD6zel"
+  publisher: The Astrophysical Journal
+  date: '2018-03-20'
+  link: https://doi.org/gkjfnd
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3847/1538-4357/aa7a5a
+  title: From Neutron Star Observables to the Equation of State. II. Bayesian Inference
+    of Equation of State Pressures
+  authors:
+  - Carolyn A. Raithel
+  - "Feryal \xD6zel"
+  - Dimitrios Psaltis
+  publisher: The Astrophysical Journal
+  date: '2017-08-01'
+  link: https://doi.org/gkk8xf
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1088/2041-8205/804/1/L18
+  title: "TWO RADIO-EMISSION MECHANISMS IN PSR J0901\u20134624"
+  authors:
+  - C. A. Raithel
+  - R. M. Shannon
+  - S. Johnston
+  - M. Kerr
+  publisher: The Astrophysical Journal
+  date: '2015-04-28'
+  link: https://doi.org/gt5wx3
+  orcid: 0000-0002-1798-6668
+  plugin: orcid.py
+  file: orcid.yaml
