@@ -68,7 +68,7 @@ I received my B.A. in Physics from <a href="https://www.carleton.edu/">Carleton 
 {%
   include button.html
   link="cv"
-  text="For my CV, click here"
+  text="For my full CV, click here"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
