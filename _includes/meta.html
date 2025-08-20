@@ -83,8 +83,9 @@
       "datePublished": "{{ published }}",
       "dateModified": "{{ updated }}",
     {% else %}
-      "@type": "WebSite",
+      "@type": "WebSite"
     {% endif %}
+    {% unless page.author %},{% endunless %}
     "name": "{{ title }}",
     "description": "{{ description }}",
     "headline": "{{ title }}",
