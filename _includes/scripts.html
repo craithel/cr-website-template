@@ -4,7 +4,10 @@
 <script src="https://unpkg.com/mark.js@8" defer></script>
 
 <!-- include all js in scripts folder -->
-{% assign scripts = site.static_files | where_exp: "file", "file.path contains '/_scripts'" %}
-{% for script in scripts %}
-  <script src="{{ script.path | relative_url }}"></script>
-{% endfor %}
+<script src="{{ '/_scripts/anchors.js' | relative_url }}"></script>
+<script src="{{ '/_scripts/dark-mode.js' | relative_url }}"></script>
+<script src="{{ '/_scripts/fetch-tags.js' | relative_url }}"></script>
+<script src="{{ '/_scripts/search.js' | relative_url }}"></script>
+<script src="{{ '/_scripts/site-search.js' | relative_url }}"></script>
+<script src="{{ '/_scripts/table-wrap.js' | relative_url }}"></script>
+<script src="{{ '/_scripts/tooltip.js' | relative_url }}"></script>
