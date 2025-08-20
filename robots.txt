@@ -1,1 +1,1 @@
-Sitemap: https://craithel.github.io/cr-website-template/sitemap.xml
+Sitemap: https://craithel.github.io/sitemap.xml
