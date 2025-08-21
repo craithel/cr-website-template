@@ -11,21 +11,49 @@
     class="feature-image"
     aria-label="{{ include.title | default: "feature link" }}"
   >
-  
-<div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;">
-  <div style="flex: 2; min-width: 250px;">
+
+{% assign align = include.image_align | default: "right" %}
+{% if align == "left" %}
+  {% assign image_first = true %}
+{% else %}
+  {% assign image_first = false %}
+{% endif %}
+
+<div style="display: flex; align-items: flex-start; gap: 1.5rem; flex-wrap: wrap;">
+
+  {% if image_first %}
+    <div style="flex-shrink: 0;">
+      <img
+        src="{{ include.image | relative_url }}"
+        loading="lazy"
+        alt="{{ include.title | default: 'feature image' }}"
+        style="max-width: {{ include.image_width | default: '150px' }}; height: auto; border-radius: 8px;"
+        {% include fallback.html %}
+      >
+    </div>
+  {% endif %}
+
+  <div style="flex: 1 1 300px;">
     {{ include.text }}
   </div>
-  <div style="flex-shrink: 0;">
-    <img
-      src="{{ include.image | relative_url }}"
-      loading="lazy"
-      alt="{{ include.title | default: 'feature image' }}"
-      style="max-width: {{ include.image_width | default: '150px' }}; height: auto; border-radius: 8px;"
-      {% include fallback.html %}
-    >
-  </div>
+
+  {% unless image_first %}
+    <div style="flex-shrink: 0;">
+      <img
+        src="{{ include.image | relative_url }}"
+        loading="lazy"
+        alt="{{ include.title | default: 'feature image' }}"
+        style="max-width: {{ include.image_width | default: '150px' }}; height: auto; border-radius: 8px;"
+        {% include fallback.html %}
+      >
+    </div>
+  {% endunless %}
+
 </div>
+
+
+
+    
     
   </a>
   <div class="feature-text">
