@@ -11,12 +11,22 @@
     class="feature-image"
     aria-label="{{ include.title | default: "feature link" }}"
   >
+  
+<div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;">
+  <div style="flex: 2; min-width: 250px;">
+    {{ include.text }}
+  </div>
+  <div style="flex-shrink: 0;">
     <img
       src="{{ include.image | relative_url }}"
       loading="lazy"
-      alt="{{ include.title | default: "feature image" }}"
+      alt="{{ include.title | default: 'feature image' }}"
+      style="max-width: {{ include.image_width | default: '150px' }}; height: auto; border-radius: 8px;"
       {% include fallback.html %}
     >
+  </div>
+</div>
+    
   </a>
   <div class="feature-text">
     {% if include.title %}
