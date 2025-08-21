@@ -16,7 +16,7 @@ Welcome! I am an Assistant Professor of Physics at <a href="https://www.swarthmo
 
 {% endcapture %}
 
-{% include feature.html image="images/PCTS_headshot.jpg" text=text image_width="20%" image_align="right" aspect_ratio=1 %}
+{% include feature.html image="images/PCTS_headshot_cropped1.jpg" text=text image_width="20%" image_align="right" aspect_ratio=1 %}
 
 
 {% capture text %}
