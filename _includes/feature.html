@@ -18,7 +18,7 @@
           src="{{ include.image | relative_url }}"
           loading="lazy"
           alt="{{ include.title | default: 'feature image' }}"
-          style="max-width: {{ include.image_width | default: '150px' }}; height: auto; border-radius: 8px;"
+          style="width: {{ include.image_width | default: '150px' }}; height: auto; border-radius: 8px;"
           {% include fallback.html %}
         >
       </div>
@@ -40,7 +40,7 @@
           src="{{ include.image | relative_url }}"
           loading="lazy"
           alt="{{ include.title | default: 'feature image' }}"
-          style="max-width: {{ include.image_width | default: '150px' }}; height: auto; border-radius: 8px;"
+          style="width: {{ include.image_width | default: '150px' }}; height: auto; border-radius: 8px;"
           {% include fallback.html %}
         >
       </div>
