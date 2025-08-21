@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/cv/</loc>
+<loc>https://craithel.github.io/research/</loc>
 </url>
 <url>
-<loc>/contact/</loc>
+<loc>https://craithel.github.io/teaching/</loc>
 </url>
 <url>
-<loc>/teaching/</loc>
+<loc>https://craithel.github.io/publications/</loc>
 </url>
 <url>
-<loc>/publications/</loc>
+<loc>https://craithel.github.io/contact/</loc>
 </url>
 <url>
-<loc>/research/</loc>
+<loc>https://craithel.github.io/cv/</loc>
 </url>
 <url>
-<loc>/</loc>
+<loc>https://craithel.github.io/</loc>
 </url>
 <url>
-<loc>/images/raithel_cv.pdf</loc>
-<lastmod>2025-08-21T20:18:01+00:00</lastmod>
+<loc>https://craithel.github.io/images/raithel_cv.pdf</loc>
+<lastmod>2025-08-21T20:19:00+00:00</lastmod>
 </url>
 </urlset>
