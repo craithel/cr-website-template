@@ -11,7 +11,7 @@ nav:
 
 <h4> 
   Email: craithe1@swarthmore.edu   <br>
-  Office: <a href="https://example.com">Science Center 117</a> 
+  Office: <a href="https://map.concept3d.com/?id=713#!m/87169?s/">Science Center 117</a> 
 </h4>
 
 </div>
