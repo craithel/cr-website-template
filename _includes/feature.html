@@ -13,13 +13,9 @@
   >
 
 {% assign align = include.image_align | default: "right" %}
-{% if align == "left" %}
-  {% assign image_first = true %}
-{% else %}
-  {% assign image_first = false %}
-{% endif %}
+{% assign image_first = align == "left" %}
 
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; flex-wrap: wrap;">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1.5rem;">
 
   {% if image_first %}
     <div style="flex-shrink: 0;">
@@ -34,7 +30,7 @@
   {% endif %}
 
   <div style="flex: 1 1 300px;">
-    {{ include.text }}
+    {{ include.text | markdownify }}
   </div>
 
   {% unless image_first %}
