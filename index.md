@@ -19,7 +19,7 @@ I received my B.A. in Physics from <a href="https://www.carleton.edu/">Carleton 
 
 {% endcapture %}
 
-{% include feature.html image="images/PCTS_headshot_cropped.png" text=text  aspect-ratio=1 %}
+{% include feature.html image="images/PCTS_headshot.png" text=text image_width="120px" aspect-ratio=1 %}
 
 
 {% capture text %}
@@ -31,5 +31,5 @@ their central densities can reach on order "10^{15}" g/cm"^3", or several times 
 
 {% endcapture %}
 
-{% include feature.html image="images/merger_image.jpeg" link="research" title="Research Overview" text=text %}
+{% include feature.html image="images/merger_image.jpeg"  link="research" title="Research Overview" text=text image_align="left"%}
 
