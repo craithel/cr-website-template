@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-dark="false">
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!--
   put your analytics (e.g. Google Analytics) tracking code here
 -->
@@ -41,20 +40,20 @@
 
 <title>Home | Carolyn Raithel</title>
 
-<link rel="icon" href="/images/icon.jpg">
+<link rel="icon" href="/images/icon.png">
 
 <meta name="title" content="Home">
-<meta name="description" content="Assistant Professor of Physics &amp; Astronomy, Swarthmore College. ">
+<meta name="description" content="Assistant Professor of Physics & Astronomy, Swarthmore College. Source code for CR website">
 
 <meta property="og:title" content="Home">
 <meta property="og:site_title" content="Carolyn Raithel">
-<meta property="og:description" content="Assistant Professor of Physics &amp; Astronomy, Swarthmore College. ">
+<meta property="og:description" content="Assistant Professor of Physics & Astronomy, Swarthmore College. Source code for CR website">
 <meta property="og:url" content="https://craithel.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Home">
-<meta property="twitter:description" content="Assistant Professor of Physics &amp; Astronomy, Swarthmore College. ">
+<meta property="twitter:description" content="Assistant Professor of Physics & Astronomy, Swarthmore College. Source code for CR website">
 <meta property="twitter:url" content="https://craithel.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
@@ -67,14 +66,15 @@
   {
     "@context": "https://schema.org",
     
-      "@type": "WebSite",
+      "@type": "WebSite"
     
+    ,
     "name": "Home",
-    "description": "Assistant Professor of Physics & Astronomy, Swarthmore College. ",
+    "description": "Assistant Professor of Physics & Astronomy, Swarthmore College. Source code for CR website",
     "headline": "Home",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
     "url": "https://craithel.github.io"
   }
@@ -86,254 +86,35 @@
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="_styles/-theme.scss" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<link
+  href="https://use.fontawesome.com/releases/v6.5.0/css/all.css"
+  rel="stylesheet"
+  media="none"
+  onload="this.removeAttribute('media'); this.onload = null;"
+/>
 <noscript>
   <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link 
+  href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css"
+  rel="stylesheet"
+/>
 
 <!-- include all sass in styles folder -->
+<link href="/_styles/-theme.css" rel="stylesheet">
+<link href="/_styles/main.css" rel="stylesheet">
 
-
-  
-    <link href="/_styles/-theme.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/alert.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/all.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/anchor.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/background.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/body.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/bold.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/button.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/card.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/checkbox.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/citation.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/code.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/cols.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/dark-toggle.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/feature.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/figure.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/float.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/font.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/footer.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/form.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/grid.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/header.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/heading.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/highlight.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/icon.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/image.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/link.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/list.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/main.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/paragraph.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/portrait.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/post-excerpt.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/post-info.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/post-nav.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/quote.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/rule.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/search-box.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/search-info.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/section.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/table.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/tags.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/textbox.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/tooltip.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/util.css" rel="stylesheet">
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
 
 
 <!-- include all css in styles folder -->
-
-
+<link href="/_styles/-theme.css" rel="stylesheet">
 
   <!-- third party scripts -->
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
@@ -341,22 +122,13 @@
 <script src="https://unpkg.com/mark.js@8" defer></script>
 
 <!-- include all js in scripts folder -->
-
-
-  <script src="/_scripts/anchors.js"></script>
-
-  <script src="/_scripts/dark-mode.js"></script>
-
-  <script src="/_scripts/fetch-tags.js"></script>
-
-  <script src="/_scripts/search.js"></script>
-
-  <script src="/_scripts/site-search.js"></script>
-
-  <script src="/_scripts/table-wrap.js"></script>
-
-  <script src="/_scripts/tooltip.js"></script>
-
+<script src="/_scripts/anchors.js"></script>
+<script src="/_scripts/dark-mode.js"></script>
+<script src="/_scripts/fetch-tags.js"></script>
+<script src="/_scripts/search.js"></script>
+<script src="/_scripts/site-search.js"></script>
+<script src="/_scripts/table-wrap.js"></script>
+<script src="/_scripts/tooltip.js"></script>
 
 </head>
 
@@ -369,12 +141,19 @@
 
 
 
-<header class="background" style="--image: url('/images/Picture1.jpg')" data-dark="true" data-big>
+<header
+  class="background"
+  style="--image: url('/images/Picture1.jpg')"
+  
+  
+    data-big
+  
+>
   <a href="/" class="home">
     
       <span class="logo">
         
-          <img src="/images/logo.png" alt="logo">
+          images/logo.svg
         
       </span>
     
@@ -384,7 +163,7 @@
           <span class="title">Carolyn Raithel</span>
         
         
-          <span class="subtitle">Assistant Professor of Physics &amp; Astronomy, Swarthmore College</span>
+          <span class="subtitle">Assistant Professor of Physics & Astronomy, Swarthmore College</span>
         
       </span>
     
@@ -396,25 +175,37 @@
     
     
       
-        <a href="/research/" data-tooltip="Research themes and projects">
+        <a
+          href="/research/"
+          data-tooltip="Research themes and projects"
+        >
           Research
         </a>
       
     
       
-        <a href="/publications/" data-tooltip="Published works">
+        <a
+          href="/publications/"
+          data-tooltip="Published works"
+        >
           Publications
         </a>
       
     
       
-        <a href="/teaching/" data-tooltip="Courses taught">
+        <a
+          href="/teaching/"
+          data-tooltip="Courses taught"
+        >
           Teaching
         </a>
       
     
       
-        <a href="/contact/" data-tooltip="Email and office information">
+        <a
+          href="/contact/"
+          data-tooltip="Email and office information"
+        >
           Contact
         </a>
       
@@ -424,35 +215,13 @@
 
     <main>
       <!--
-  modify main content of page:
-  - add section breaks
-  - attach section properties
-  - filter out blank sections
--->
-
-
-
-
-
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
 # Carolyn Raithel 
 ## Assistant Professor of Physics & Astronomy, Swarthmore College -->
 
 <h3 id="-website-currently-under-construction--"><i> Website currently under construction  </i></h3>
-  </section>
 
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
+<!-- section break -->
+<!--
   background: ;
   dark: ;
   size: ;
@@ -462,7 +231,7 @@
 
 <div class="feature">
   <a href="/research" class="feature-image" aria-label="Research">
-    <img src="/images/merger_image.jpeg" loading="lazy" alt="Research" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/merger_image.jpeg" loading="lazy" alt="Research" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   <div class="feature-text">
     
@@ -486,7 +255,7 @@
 
 <div class="feature" data-flip="">
   <a href="/teaching" class="feature-image" aria-label="Teaching">
-    <img src="/images/teaching.png" loading="lazy" alt="Teaching" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/teaching.png" loading="lazy" alt="Teaching" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   <div class="feature-text">
     
@@ -510,15 +279,15 @@
 
 <div class="feature">
   <a class="feature-image" aria-label="feature link">
-    <img src="/images/PCTS_headshot_cropped.png" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/PCTS_headshot_cropped.png" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   <div class="feature-text">
     
     
 <p>I joined the department of Physics &amp; Astronomy at Swarthmore College as an Assistant Professor in Fall of 2024. Prior to coming to Swarthmore, I was a joint postdoctoral fellow at the <a href="https://pcts.princeton.edu/">Princeton Center for Theoretical Science</a>, <a href="https://gravity.princeton.edu/">Princeton Gravity Initiative</a>, and as a John N. Bahcall fellow at the <a href="https://www.ias.edu/">Institute for Advanced Study.</a> 
-<br>
-<br>
-I received my B.A. in Physics from <a href="https://www.carleton.edu/">Carleton College</a> and my PhD in Astronomy &amp; Astrophysics from the <a href="https://www.as.arizona.edu/">University of Arizona</a>.  For my full CV, <img src="/images/raithel_cv.pdf" alt="click here">.</p>
+<br />
+<br />
+I received my B.A. in Physics from <a href="https://www.carleton.edu/">Carleton College</a> and my PhD in Astronomy &amp; Astrophysics from the <a href="https://www.as.arizona.edu/">University of Arizona</a>.  For my full CV, <img src="/images/raithel_cv.pdf" alt="click here" />.</p>
 
 <div class="button-wrapper">
     <a class="button" href="/cv" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
@@ -532,14 +301,18 @@ I received my B.A. in Physics from <a href="https://www.carleton.edu/">Carleton 
 
   </div>
 </div>
-  </section>
 
 
     </main>
     
 
 
-<footer class="background" style="--image: url('/images/Picture1.jpg')" data-dark="true" data-size="wide">
+<footer
+  class="background"
+  style="--image: url('/images/Picture1.jpg')"
+  
+  data-size="wide"
+>
   <!--
     <div>
       Extra details like contact info or address
@@ -551,15 +324,21 @@ I received my B.A. in Physics from <a href="https://www.carleton.edu/">Carleton 
   </div>
 
   <div>
-    © 2025
+    &copy; 2025
     Carolyn Raithel
-      |   Built with
+    &nbsp; | &nbsp; Built with
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input
+    type="checkbox"
+    class="dark-toggle"
+    data-tooltip="Dark mode"
+    aria-label="toggle dark mode"
+    oninput="onDarkToggleChange(event)"
+  >
 </footer>
 
   </body>
