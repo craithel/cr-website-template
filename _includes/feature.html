@@ -1,5 +1,12 @@
 {% assign align = include.image_align | default: "right" %}
-{% assign image_first = align == "left" %}
+{% if align == "left" %}
+  {% assign image_first = true %}
+{% else %}
+  {% assign image_first = false %}
+{% endif %}
+
+
+
 
 <div class="feature" {% if include.flip %} data-flip {% endif %}>
 
