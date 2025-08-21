@@ -9,13 +9,9 @@ proofer: false
 repository: craithel/craithel.github.io
 
 # site social media and other links
-#links:
-#  email: craithe1@swarthmore.edu
-#  orcid: 0000-0002-1798-6668
-#  google-scholar: ETJoidYAAAAJ
-#  github: craithelDESCRIPTION=An engaging 1-3 sentence description of your lab.
-#  twitter: craithelDESCRIPTION=An engaging 1-3 sentence description of your lab.
-#  youtube: craithelDESCRIPTION=An engaging 1-3 sentence description of your lab.
+links:
+  email: craithe1@swarthmore.edu
+  orcid: 0000-0002-1798-6668
 
 ### jekyll settings
 
