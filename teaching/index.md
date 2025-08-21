@@ -8,9 +8,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Teaching
 
-Below are the courses I’m currently teaching or have taught recently. 
-
 ---
+
+Below are the courses I’m currently teaching or have taught recently:
 
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem;">
