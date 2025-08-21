@@ -13,15 +13,16 @@
   <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1.5rem;">
 
     {% if image_first %}
-      <div style="flex-shrink: 0;">
-        <img
-          src="{{ include.image | relative_url }}"
-          loading="lazy"
-          alt="{{ include.title | default: 'feature image' }}"
-          style="width: {{ include.image_width | default: '150px' }}; height: auto; border-radius: 8px;"
-          {% include fallback.html %}
-        >
-      </div>
+    <div style="flex: 0 0 {{ include.image_width | default: '150px' }};">
+      <img
+        src="{{ include.image | relative_url }}"
+        loading="lazy"
+        alt="{{ include.title | default: 'feature image' }}"
+        style="width: 100%; height: auto; border-radius: 8px;"
+        {% include fallback.html %}
+      >
+    </div>
+
     {% endif %}
 
     <div style="flex: 1 1 300px;">
@@ -35,15 +36,16 @@
     </div>
 
     {% unless image_first %}
-      <div style="flex-shrink: 0;">
-        <img
-          src="{{ include.image | relative_url }}"
-          loading="lazy"
-          alt="{{ include.title | default: 'feature image' }}"
-          style="width: {{ include.image_width | default: '150px' }}; height: auto; border-radius: 8px;"
-          {% include fallback.html %}
-        >
-      </div>
+    <div style="flex: 0 0 {{ include.image_width | default: '150px' }};">
+      <img
+        src="{{ include.image | relative_url }}"
+        loading="lazy"
+        alt="{{ include.title | default: 'feature image' }}"
+        style="width: 100%; height: auto; border-radius: 8px;"
+        {% include fallback.html %}
+      >
+    </div>
+
     {% endunless %}
 
   </div>
