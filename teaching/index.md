@@ -21,7 +21,7 @@ A first course in mechanics for major-track students, Physics 7 is typically tak
 Taught: Fall 2024, Fall 2025
 </div>
 
-<div style="border: 1px solid #ccc; padding: 1rem; border-radius: 8px; width: 300px;text-align: justify;"><h3><strong>Phys 114:</strong></h3>>h4>Statistical Physics</h4>
+<div style="border: 1px solid #ccc; padding: 1rem; border-radius: 8px; width: 300px;text-align: justify;"><h3><strong>Phys 114:</strong></h3><h4>Statistical Physics</h4>
 A seminar-style course on thermodynamics and statistical mechanics, typically taken in the junior or senior year. Topics include: the statistical behavior of classical and quantum systems; temperature and entropy; equations of state; engines and refrigerators; statistical basis of thermodynamics; microcanonical, canonical, and grand canonical distributions; phase transitions; statistics of bosons and fermions; black body radiation; electronic and thermal properties of quantum liquids and solids. Course text: Blundell and Blundell
 Taught: Spring 2025
 </div>
