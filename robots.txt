@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://craithel.github.io/sitemap.xml
