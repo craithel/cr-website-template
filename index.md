@@ -16,7 +16,7 @@ Welcome! I am an Assistant Professor of Physics at <a href="https://www.swarthmo
 <a class="button" href="{{ '/images/raithel_cv.pdf' | relative_url }}" data-style="bare" aria-label="For my full CV, click here">  <i class="fa-solid fa-arrow-right"></i> For my full CV, click here </a>
 {% endcapture %}
   
-{% include feature.html image="images/PCTS_headshot_cropped1.jpg" text=text image_width="20%" image_align="right" aspect_ratio=1 %}
+{% include feature.html image="images/PCTS_headshot_cropped1.jpg" text=text title="About me" image_width="20%" image_align="right" aspect_ratio=1 %}
 
 
 {% capture text %}
