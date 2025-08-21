@@ -1,63 +1,44 @@
-<div
-  class="feature"
-  {% if include.flip %}
-    data-flip
-  {% endif %}
->
-  <a
-    {% if include.link %}
-      href="{{ include.link | relative_url }}" 
-    {% endif %}
-    class="feature-image"
-    aria-label="{{ include.title | default: "feature link" }}"
-  >
-
 {% assign align = include.image_align | default: "right" %}
 {% assign image_first = align == "left" %}
 
-<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1.5rem;">
+<div class="feature" {% if include.flip %} data-flip {% endif %}>
 
-  {% if image_first %}
-    <div style="flex-shrink: 0;">
-      <img
-        src="{{ include.image | relative_url }}"
-        loading="lazy"
-        alt="{{ include.title | default: 'feature image' }}"
-        style="max-width: {{ include.image_width | default: '150px' }}; height: auto; border-radius: 8px;"
-        {% include fallback.html %}
-      >
-    </div>
-  {% endif %}
+  <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1.5rem;">
 
-  <div style="flex: 1 1 300px;">
-    {{ include.text | markdownify }}
-  </div>
-
-  {% unless image_first %}
-    <div style="flex-shrink: 0;">
-      <img
-        src="{{ include.image | relative_url }}"
-        loading="lazy"
-        alt="{{ include.title | default: 'feature image' }}"
-        style="max-width: {{ include.image_width | default: '150px' }}; height: auto; border-radius: 8px;"
-        {% include fallback.html %}
-      >
-    </div>
-  {% endunless %}
-
-</div>
-
-
-
-    
-
-    
-    
-  </a>
-  <div class="feature-text">
-    {% if include.title %}
-      <p class="feature-title">{{ include.title }}</p>
+    {% if image_first %}
+      <div style="flex-shrink: 0;">
+        <img
+          src="{{ include.image | relative_url }}"
+          loading="lazy"
+          alt="{{ include.title | default: 'feature image' }}"
+          style="max-width: {{ include.image_width | default: '150px' }}; height: auto; border-radius: 8px;"
+          {% include fallback.html %}
+        >
+      </div>
     {% endif %}
-    {{ include.text | markdownify }}
+
+    <div style="flex: 1 1 300px;">
+      {% if include.title %}
+        <p class="feature-title">{{ include.title }}</p>
+      {% endif %}
+      {{ include.text | markdownify }}
+      {% if include.link %}
+        <p><a href="{{ include.link | relative_url }}">Read more →</a></p>
+      {% endif %}
+    </div>
+
+    {% unless image_first %}
+      <div style="flex-shrink: 0;">
+        <img
+          src="{{ include.image | relative_url }}"
+          loading="lazy"
+          alt="{{ include.title | default: 'feature image' }}"
+          style="max-width: {{ include.image_width | default: '150px' }}; height: auto; border-radius: 8px;"
+          {% include fallback.html %}
+        >
+      </div>
+    {% endunless %}
+
   </div>
+
 </div>
