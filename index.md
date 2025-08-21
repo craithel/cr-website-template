@@ -7,8 +7,6 @@ title: Home
 # Carolyn Raithel 
 ## Assistant Professor of Physics & Astronomy, Swarthmore College -->
 
-### <i> Website currently under construction  </i>
-
 {% include section.html %}
 
 <!--  ## Highlights -->
