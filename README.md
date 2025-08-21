@@ -1,6 +1,6 @@
 
-# craithelDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# Carolyn Raithel
 
-Visit **[craithel.github.io/cr-website-template](https://craithel.github.io/cr-website-template)** 🚀
+Visit **[craithel.github.io](https://craithel.github.io)** 🚀
 
 _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
