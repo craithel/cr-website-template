@@ -9,7 +9,10 @@ nav:
 
 <div style="text-align: center;">
 
-<h4> Email: craithe1@swarthmore.edu   &#9679;	 Office: <a href="https://example.com">Science Center 117</a> </h4>
+<h4> 
+  Email: craithe1@swarthmore.edu   <br>
+  Office: <a href="https://example.com">Science Center 117</a> 
+</h4>
 
 </div>
 
