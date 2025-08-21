@@ -25,17 +25,6 @@
 
     {% endif %}
 
-    <!--
-    <div style="flex: 1 1 300px;">
-      {% if include.title %}
-        <p class="feature-title">{{ include.title }}</p>
-      {% endif %}
-      {{ include.text | markdownify }}
-      {% if include.link %}
-        <p><a href="{{ include.link | relative_url }}">Read more →</a></p>
-      {% endif %}
-    </div>
-      -->
 
     {% unless image_first %}
     <div style="flex: 0 0 {{ include.image_width | default: '150px' }};">
