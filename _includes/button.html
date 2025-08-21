@@ -2,7 +2,7 @@
 {% assign button = button | hash_default: site.data.types[include.type] %}
 
 {% if button.link or button.icon or button.text %}
-  <div class="button-wrapper">
+  <span class="button-wrapper" style="display: inline-block;">
     <a
       class="button"
       href="{{ button.link | replace: "$LINK", button.link | relative_url }}"
@@ -20,5 +20,5 @@
         <span>{{ button.text }}</span>
       {% endif %}
     </a>
-  </div>
+  </span>
 {% endif %}
